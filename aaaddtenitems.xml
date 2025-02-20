@@ -1,0 +1,53 @@
+<?xml version="1.0" standalone="yes" ?>
+<?xml-stylesheet href="x2script.xsl" type="text/xsl" ?>
+<script>
+<name>aaaddtenitems</name>
+<version>0</version>
+<engineversion>54</engineversion>
+<description>Description</description>
+<arguments>
+</arguments>
+<sourceplaintext>
+<![CDATA[
+  = [PLAYERSHIP] -> add 10 units of Thunderbolt Missile
+  return null
+]]>
+</sourceplaintext>
+<sourcetext>
+<line indent=""><var>=&#160;</var><var>[PLAYERSHIP]&#160;-&gt;</var><text>&#160;add&#160;</text><var>10</var><text>&#160;units&#160;of&#160;</text><var>Thunderbolt&#160;Missile</var></line>
+<line indent=""><text>return&#160;</text><var>null</var></line>
+</sourcetext>
+<codearray>
+
+<sval type="array" size="10">
+  <sval type="string" val="aaaddtenitems"/>
+  <sval type="int" val="54"/>
+  <sval type="string" val="Description"/>
+  <sval type="int" val="0"/>
+  <sval type="int" val="0"/>
+  <sval type="int" val="0"/>
+  <sval type="array" size="2">
+    <sval type="array" size="8">
+      <sval type="int" val="646"/>
+      <sval type="int" val="131075"/>
+      <sval type="int" val="3"/>
+      <sval type="int" val="-2147483647"/>
+      <sval type="int" val="4"/>
+      <sval type="int" val="10"/>
+      <sval type="int" val="9"/>
+      <sval type="int" val="655370"/>
+    </sval>
+    <sval type="array" size="3">
+      <sval type="int" val="103"/>
+      <sval type="int" val="0"/>
+      <sval type="int" val="0"/>
+    </sval>
+  </sval>
+  <sval type="int" val="0"/>
+  <sval type="int" val="0"/>
+  <sval type="int" val="0"/>
+</sval>
+
+</codearray>
+<nosignature>7412</nosignature>
+</script>

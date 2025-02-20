@@ -1,0 +1,78 @@
+<?xml version="1.0" standalone="yes" ?>
+<?xml-stylesheet href="x2script.xsl" type="text/xsl" ?>
+<script>
+<name>aarepairshield</name>
+<version>0</version>
+<engineversion>54</engineversion>
+<description>Description</description>
+<arguments>
+</arguments>
+<sourceplaintext>
+<![CDATA[
+  $a = [PLAYERSHIP] -> get max hull
+  $b = [PLAYERSHIP] -> get maximum shield strength
+  [PLAYERSHIP] ->set current shield strength to $b
+  [PLAYERSHIP] ->set hull to $a
+  return null
+]]>
+</sourceplaintext>
+<sourcetext>
+<line indent=""><var>$a&#160;=&#160;</var><var>[PLAYERSHIP]&#160;-&gt;</var><text>&#160;get&#160;max&#160;hull</text></line>
+<line indent=""><var>$b&#160;=&#160;</var><var>[PLAYERSHIP]&#160;-&gt;</var><text>&#160;get&#160;maximum&#160;shield&#160;strength</text></line>
+<line indent=""><var>[PLAYERSHIP]&#160;-&gt;</var><text>set&#160;current&#160;shield&#160;strength&#160;to&#160;</text><var>$b</var></line>
+<line indent=""><var>[PLAYERSHIP]&#160;-&gt;</var><text>set&#160;hull&#160;to&#160;</text><var>$a</var></line>
+<line indent=""><text>return&#160;</text><var>null</var></line>
+</sourcetext>
+<codearray>
+
+<sval type="array" size="10">
+  <sval type="string" val="aarepairshield"/>
+  <sval type="int" val="54"/>
+  <sval type="string" val="Description"/>
+  <sval type="int" val="0"/>
+  <sval type="int" val="0"/>
+  <sval type="array" size="2">
+    <sval type="string" val="a"/>
+    <sval type="string" val="b"/>
+  </sval>
+  <sval type="array" size="5">
+    <sval type="array" size="4">
+      <sval type="int" val="786"/>
+      <sval type="int" val="131075"/>
+      <sval type="int" val="3"/>
+      <sval type="int" val="0"/>
+    </sval>
+    <sval type="array" size="4">
+      <sval type="int" val="715"/>
+      <sval type="int" val="131075"/>
+      <sval type="int" val="3"/>
+      <sval type="int" val="1"/>
+    </sval>
+    <sval type="array" size="5">
+      <sval type="int" val="1048"/>
+      <sval type="int" val="131075"/>
+      <sval type="int" val="3"/>
+      <sval type="int" val="131074"/>
+      <sval type="int" val="1"/>
+    </sval>
+    <sval type="array" size="5">
+      <sval type="int" val="1047"/>
+      <sval type="int" val="131075"/>
+      <sval type="int" val="3"/>
+      <sval type="int" val="131074"/>
+      <sval type="int" val="0"/>
+    </sval>
+    <sval type="array" size="3">
+      <sval type="int" val="103"/>
+      <sval type="int" val="0"/>
+      <sval type="int" val="0"/>
+    </sval>
+  </sval>
+  <sval type="int" val="0"/>
+  <sval type="int" val="0"/>
+  <sval type="int" val="0"/>
+</sval>
+
+</codearray>
+<nosignature>1322</nosignature>
+</script>

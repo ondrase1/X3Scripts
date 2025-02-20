@@ -1,0 +1,53 @@
+<?xml version="1.0" standalone="yes" ?>
+<?xml-stylesheet href="x2script.xsl" type="text/xsl" ?>
+<script>
+<name>aaequiponeitem</name>
+<version>0</version>
+<engineversion>54</engineversion>
+<description>Description</description>
+<arguments>
+</arguments>
+<sourceplaintext>
+<![CDATA[
+  = [PLAYERSHIP] -> install 4 units of 1 GJ Shield
+  return null
+]]>
+</sourceplaintext>
+<sourcetext>
+<line indent=""><var>=&#160;</var><var>[PLAYERSHIP]&#160;-&gt;</var><text>&#160;install&#160;</text><var>4</var><text>&#160;units&#160;of&#160;</text><var>1&#160;GJ&#160;Shield</var></line>
+<line indent=""><text>return&#160;</text><var>null</var></line>
+</sourcetext>
+<codearray>
+
+<sval type="array" size="10">
+  <sval type="string" val="aaequiponeitem"/>
+  <sval type="int" val="54"/>
+  <sval type="string" val="Description"/>
+  <sval type="int" val="0"/>
+  <sval type="int" val="0"/>
+  <sval type="int" val="0"/>
+  <sval type="array" size="2">
+    <sval type="array" size="8">
+      <sval type="int" val="647"/>
+      <sval type="int" val="131075"/>
+      <sval type="int" val="3"/>
+      <sval type="int" val="-2147483647"/>
+      <sval type="int" val="4"/>
+      <sval type="int" val="4"/>
+      <sval type="int" val="9"/>
+      <sval type="int" val="589828"/>
+    </sval>
+    <sval type="array" size="3">
+      <sval type="int" val="103"/>
+      <sval type="int" val="0"/>
+      <sval type="int" val="0"/>
+    </sval>
+  </sval>
+  <sval type="int" val="0"/>
+  <sval type="int" val="0"/>
+  <sval type="int" val="0"/>
+</sval>
+
+</codearray>
+<nosignature>6568</nosignature>
+</script>

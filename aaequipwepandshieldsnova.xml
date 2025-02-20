@@ -1,0 +1,89 @@
+<?xml version="1.0" standalone="yes" ?>
+<?xml-stylesheet href="x2script.xsl" type="text/xsl" ?>
+<script>
+<name>aaequipwepandshieldsnova</name>
+<version>0</version>
+<engineversion>54</engineversion>
+<description>Description</description>
+<arguments>
+</arguments>
+<sourceplaintext>
+<![CDATA[
+  = [PLAYERSHIP] -> add 4 units of Energy Bolt Chaingun
+  = [PLAYERSHIP] -> add 2 units of High Energy Plasma Thrower
+  = [PLAYERSHIP] -> add 3 units of Phased Repeater Gun
+  = [PLAYERSHIP] -> install 3 units of 25 MJ Shield
+  return null
+]]>
+</sourceplaintext>
+<sourcetext>
+<line indent=""><var>=&#160;</var><var>[PLAYERSHIP]&#160;-&gt;</var><text>&#160;add&#160;</text><var>4</var><text>&#160;units&#160;of&#160;</text><var>Energy&#160;Bolt&#160;Chaingun</var></line>
+<line indent=""><var>=&#160;</var><var>[PLAYERSHIP]&#160;-&gt;</var><text>&#160;add&#160;</text><var>2</var><text>&#160;units&#160;of&#160;</text><var>High&#160;Energy&#160;Plasma&#160;Thrower</var></line>
+<line indent=""><var>=&#160;</var><var>[PLAYERSHIP]&#160;-&gt;</var><text>&#160;add&#160;</text><var>3</var><text>&#160;units&#160;of&#160;</text><var>Phased&#160;Repeater&#160;Gun</var></line>
+<line indent=""><var>=&#160;</var><var>[PLAYERSHIP]&#160;-&gt;</var><text>&#160;install&#160;</text><var>3</var><text>&#160;units&#160;of&#160;</text><var>25&#160;MJ&#160;Shield</var></line>
+<line indent=""><text>return&#160;</text><var>null</var></line>
+</sourcetext>
+<codearray>
+
+<sval type="array" size="10">
+  <sval type="string" val="aaequipwepandshieldsnova"/>
+  <sval type="int" val="54"/>
+  <sval type="string" val="Description"/>
+  <sval type="int" val="0"/>
+  <sval type="int" val="0"/>
+  <sval type="int" val="0"/>
+  <sval type="array" size="5">
+    <sval type="array" size="8">
+      <sval type="int" val="646"/>
+      <sval type="int" val="131075"/>
+      <sval type="int" val="3"/>
+      <sval type="int" val="-2147483647"/>
+      <sval type="int" val="4"/>
+      <sval type="int" val="4"/>
+      <sval type="int" val="9"/>
+      <sval type="int" val="524292"/>
+    </sval>
+    <sval type="array" size="8">
+      <sval type="int" val="646"/>
+      <sval type="int" val="131075"/>
+      <sval type="int" val="3"/>
+      <sval type="int" val="-2147483647"/>
+      <sval type="int" val="4"/>
+      <sval type="int" val="2"/>
+      <sval type="int" val="9"/>
+      <sval type="int" val="524294"/>
+    </sval>
+    <sval type="array" size="8">
+      <sval type="int" val="646"/>
+      <sval type="int" val="131075"/>
+      <sval type="int" val="3"/>
+      <sval type="int" val="-2147483647"/>
+      <sval type="int" val="4"/>
+      <sval type="int" val="3"/>
+      <sval type="int" val="9"/>
+      <sval type="int" val="524291"/>
+    </sval>
+    <sval type="array" size="8">
+      <sval type="int" val="647"/>
+      <sval type="int" val="131075"/>
+      <sval type="int" val="3"/>
+      <sval type="int" val="-2147483647"/>
+      <sval type="int" val="4"/>
+      <sval type="int" val="3"/>
+      <sval type="int" val="9"/>
+      <sval type="int" val="589826"/>
+    </sval>
+    <sval type="array" size="3">
+      <sval type="int" val="103"/>
+      <sval type="int" val="0"/>
+      <sval type="int" val="0"/>
+    </sval>
+  </sval>
+  <sval type="int" val="0"/>
+  <sval type="int" val="0"/>
+  <sval type="int" val="0"/>
+</sval>
+
+</codearray>
+<nosignature>8688</nosignature>
+</script>
